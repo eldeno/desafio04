@@ -1,0 +1,25 @@
+#wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+#user-pic {
+  width: 28px;
+  border-radius: 50%;
+  border: 1px solid #eee;
+}
+
+#comment-body {
+  margin-left: 10px;
+  background: #eee;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+#comment-body span {
+  font-weight: bold;
+}
